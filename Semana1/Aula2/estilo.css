@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 5px solid black;
+}
+
+p{
+    background-color: green;
+    padding: 10px;
+    margin: 20px;
+    border: 2.5px solid yellow;
+}
