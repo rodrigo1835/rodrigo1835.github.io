@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: 'Architects Daughter', cursive
+}
+
+header{
+    background-color: #00BFFF;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;  
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin: 4px 13px;
+    
+}
+
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#menu li{
+    float: left;
+    padding: 20px 20px 9px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+ li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 22px;
+}
+
+ li:hover, li a:hover{
+    background-color: #FAFAFA;
+    color: black;
+}
+
+#imagem_fundo{
+    background-image: url('img/turtle.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#titulo{
+    color: #FFF;
+    padding-top: 18%;
+    font-size: 4.2em;
+    letter-spacing: 15px;
+    margin: 0;  
+}
+
+#subtitulo{
+    color: #FFF;
+    font-size: 1.4em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+
+    border-top: 3px white solid;
+}
+
+#acao{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #FFF;
+
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#acao:hover{
+    color: black;
+    
+}
+
+.icone{
+    width: 65px;
+    transition: 0.2s;
+}
+
+.icone:hover{
+    transform: translateY(-5px);
+}
+
+.destaque{
+    background-color: #DCDCDC;
+}
+
+section{
+    padding: 25px;
+    float: left;
+}
+
+section  h2{
+    text-align: center;
+    color: #87CEFA;
+    font-size: 3.2em;
+}
+
+#projeto p{
+    margin: 5%;
+}
+
+
+#selecao{
+    text-align: center;
+}
+
+#ecopontos{
+    background-image: url('img/ocean.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    padding: 0;
+}
+
+#ecopontos p{
+    text-align: center;
+    color: white;
+}
+
+#ecopontos h2{
+    padding-top: 45px;
+    color: #FFF;
+}
+
+#ecopontos h3{
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    padding: 5% 0;
+}
+
+.imgeco{
+    width: 100%;
+    height: 30%;
+    border-radius: 4px;
+}
+
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative; /*Posição do elemento, vai variar, com base no elemento, que vem anteriomente.*/
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+#combate{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#combate h3{
+    font-size: 1.6em;
+}
+
+#combate ul{
+    padding: 25px;
+}
+
+#paisagem{
+    float: none;
+    padding: 0;
+    width: 100%;
+    height: 60%;
+  
+}
+
+#paisagem .banner-single{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+
+#conteudo{
+    position: relative;
+    padding-top: 15%;
+}
+
+#conteudo h2{
+    color: #FFF;
+    text-shadow: 1.3px 1.3px #000;
+}
+
+
+#sobre p{
+    font-size: 26px;
+}
+
+#sobre img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: #00BFFF;
+
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 2.4em;
+    color: white;
+}
+
+footer img{
+    width: 25px;
+}
+
+.topo{
+    padding-top: 50px;
+}
+
+.topo-videos{
+    padding-top: 200px;
+}
+
+.linha{
+    width: 30%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    border-top: 3px solid #87CEFA;
+}
+
+.clear{clear: both;}
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 0.8s;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+
+
