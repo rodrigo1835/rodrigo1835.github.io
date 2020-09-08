@@ -17,7 +17,7 @@ debounce = function(func, wait, immediate){
 (function(){
 var $target = $('.anime'),
     animationClass = 'anime-start',
-    offset = $(window).height() * 1/8;
+    offset = $(window).height() * 1/7;
 
 function animeScroll(){
     var documentTop = $(document).scrollTop();
